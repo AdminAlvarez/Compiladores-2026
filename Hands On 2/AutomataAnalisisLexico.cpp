@@ -47,7 +47,7 @@ Estado reconNum(const string& entradaUser)
             {
                 actual = Estado::ENTERO;
             }
-            else if (simbolo == '+' or simbolo == '-') // SI ES SÕMBOLO PASAMOS A Q1
+            else if (simbolo == '+' or simbolo == '-') // SI ES S√çMBOLO PASAMOS A Q1
             {
                 actual = Estado::Q1;
             }
@@ -113,3 +113,4 @@ Estado reconNum(const string& entradaUser)
     }
     return actual;
 }
+
